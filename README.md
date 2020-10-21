@@ -1,6 +1,6 @@
 # **Meteor Accounts UI for React**
 
-`meteor add meteoreact:accounts`
+`meteor add didrip:meteor-accounts-react`
 
 **A huge credit goes to the [`useraccounts`](https://github.com/meteor-useraccounts/core) package and the people behind it.**
 
@@ -76,7 +76,7 @@ If you want to use different paths for your routes see [custom routes](#Custom-R
 import React, { Component } from 'react'
 import { Redirect } from 'react-router'
 import { Route, Switch } from 'react-router-dom'
-import { AccountsReactComponent } from 'meteor/meteoreact:accounts'
+import { AccountsReactComponent } from 'meteor/didrip:meteor-accounts-react'
 
 class Authentication extends Component {
 
@@ -462,7 +462,7 @@ Examples of **func** and **re** properties.
 To add additional fields, you must specify the state you want to mutate, and an array of object(s) containing your field's data.
 
 ```javascript
-import { AccountsReact } from 'meteor/meteoreact:accounts'
+import { AccountsReact } from 'meteor/didrip:meteor-accounts-react'
 
 AccountsReact.addFields('signUp', [
   {
@@ -496,7 +496,7 @@ Configuring the language of the texts to be used by the forms is done via the `A
 
 
 ```javascript
-import { AccountsReact } from 'meteor/meteoreact:accounts'
+import { AccountsReact } from 'meteor/didrip:meteor-accounts-react'
 AccountsReact.configure({
   language: 'de'
 })
@@ -515,7 +515,7 @@ The default configuration object contains a `texts` property which you can view 
 Here is an example of how to override those
 
 ```javascript
-import { AccountsReact } from 'meteor/meteoreact:accounts'
+import { AccountsReact } from 'meteor/didrip:meteor-accounts-react'
 AccountsReact.configure({
   texts: {
     button: {
@@ -533,14 +533,14 @@ AccountsReact.configure({
 
 ## Override Styling
 
-Lets say that you are using `semantic-ui-react` and `meteoreact:accounts-semantic` and want to add a simple description below each input field.
+Lets say that you are using `semantic-ui-react` and `didrip:meteor-accounts-react-semantic` and want to add a simple description below each input field.
 
 Instead of copying the full package into your local *packages* folder and directly change the code (which is totally legitimate and will work just fine!) you can look at the source code of that package and copy only the implementation of the input field into your project.
 
 From there you can edit (almost*) anything you'd like. Save the file when you are done and then add it like so:
 
 ```javascript
-import { AccountsReact } from 'meteor/meteoreact:accounts'
+import { AccountsReact } from 'meteor/didrip:meteor-accounts-react'
 import YourInputField from '...'
 
 AccountsReact.style({
@@ -567,7 +567,7 @@ You can override any of the following fields
 
 2. `git clone https://github.com/royGil/accounts-react-demo && cd accounts-react-demo`
 
-3. `git clone https://github.com/{your_account}/accounts-react packages/meteoreact:accounts`
+3. `git clone https://github.com/{your_account}/accounts-react packages/didrip:meteor-accounts-react`
 4. `meteor npm install`
 
 From this point you can make changes to the package folder and run the demo app to see them.
@@ -576,13 +576,13 @@ _Note that if you want to test anything related to the social buttons you'll hav
 
 To commit your changes
 
-1. `cd packages/meteoreact:accounts`
+1. `cd packages/didrip:meteor-accounts-react`
 
 2. `npm install` (so you can run tests)
 
 3. `npm test` and make sure there are no errors
 
-4. Push your changes (**from within the "meteoreact:accounts" folder!**) and create a PR from your fork on github.
+4. Push your changes (**from within the "didrip:meteor-accounts-react" folder!**) and create a PR from your fork on github.
 
 I'll appreciate if you write tests for your new commit but its not a requirement.
 
