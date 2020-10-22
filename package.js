@@ -1,13 +1,13 @@
 Package.describe({
   name: 'didrip:meteor-accounts-react',
   summary: 'Simple and intuative accounts view layer with react',
-  version: '1.2.5',
+  version: '1.2.6',
   documentation: 'README.md',
   git: 'https://github.com/didrip/meteor-accounts-react'
 })
 
 Package.onUse(api => {
-  api.versionsFrom('1.6.1')
+  api.versionsFrom('1.8.2')
 
   api.use([
     'ecmascript',
