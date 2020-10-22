@@ -42,3 +42,7 @@ Package.onTest(api => {
   api.mainModule('__tests__/client.test.js', 'client')
   api.mainModule('__tests__/server.test.js', 'server')
 })
+
+Npm.depends({
+  'meteor-accounts-t9n': '2.3.1'
+});
