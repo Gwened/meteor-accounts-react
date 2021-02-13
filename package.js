@@ -1,9 +1,9 @@
 Package.describe({
-  name: 'didrip:meteor-accounts-react',
+  name: 'gwened:meteor-accounts-react',
   summary: 'Simple and intuative accounts view layer with react',
   version: '1.2.7',
   documentation: 'README.md',
-  git: 'https://github.com/didrip/meteor-accounts-react'
+  git: 'https://github.com/gwened/meteor-accounts-react'
 })
 
 Package.onUse(api => {
@@ -30,7 +30,7 @@ Package.onTest(api => {
     'ecmascript',
     'accounts-base',
     'accounts-password',
-    'didrip:meteor-accounts-react',
+    'gwened:meteor-accounts-react',
     'meteoreact:accounts-unstyled',
     'mdg:validated-method@1.1.0',
     'react-meteor-data@2.2.2',

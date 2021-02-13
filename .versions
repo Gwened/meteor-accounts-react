@@ -21,7 +21,7 @@ ddp-common@1.4.0
 ddp-rate-limiter@1.0.7
 ddp-server@2.3.1
 deps@1.0.12
-didrip:meteor-accounts-react@1.2.7
+gwened:meteor-accounts-react@1.2.7
 diff-sequence@1.1.1
 dynamic-import@0.5.1
 ecmascript@0.13.2
@@ -38,7 +38,7 @@ http@1.4.2
 id-map@1.1.0
 inter-process-messaging@0.1.0
 jquery@1.11.11
-local-test:didrip:meteor-accounts-react@1.2.7
+local-test:gwened:meteor-accounts-react@1.2.7
 localstorage@1.2.0
 logging@1.1.20
 mdg:validated-method@1.1.0
