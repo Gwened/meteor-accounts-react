@@ -17,7 +17,7 @@ Package.onUse(api => {
     'check'
   ], ['client', 'server'])
 
-  api.use('react-meteor-data@0.2.16', 'client')
+  api.use('react-meteor-data@2.2.2', 'client')
 
   api.use('service-configuration', { weak: true })
   api.use('http', 'server')
@@ -33,7 +33,7 @@ Package.onTest(api => {
     'didrip:meteor-accounts-react',
     'meteoreact:accounts-unstyled',
     'mdg:validated-method@1.1.0',
-    'react-meteor-data@0.2.16',
+    'react-meteor-data@2.2.2',
     'cultofcoders:mocha'
   ])
 
