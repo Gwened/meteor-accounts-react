@@ -1,7 +1,7 @@
 Package.describe({
   name: 'gwened:meteor-accounts-react',
   summary: 'Simple and intuative accounts view layer with react',
-  version: '1.2.7',
+  version: '1.2.8',
   documentation: 'README.md',
   git: 'https://github.com/gwened/meteor-accounts-react'
 })

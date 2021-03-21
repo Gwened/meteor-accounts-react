@@ -533,7 +533,7 @@ AccountsReact.configure({
 
 ## Override Styling
 
-Lets say that you are using `semantic-ui-react` and `gwened:meteor-accounts-react-semantic` and want to add a simple description below each input field.
+Lets say that you are using `semantic-ui-react` and `meteoreact:accounts-semantic` and want to add a simple description below each input field.
 
 Instead of copying the full package into your local *packages* folder and directly change the code (which is totally legitimate and will work just fine!) you can look at the source code of that package and copy only the implementation of the input field into your project.
 
